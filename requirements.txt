@@ -1,0 +1,44 @@
+# Core Libraries
+numpy
+pandas
+opencv-python
+Pillow
+matplotlib
+scikit-learn
+
+# Deep Learning Frameworks
+torch
+torchvision
+tensorflow
+keras
+
+# Pose Detection
+mediapipe
+
+# Scene Recognition & Image Models
+timm  # For pre-trained ViT and other transformers
+transformers  # For CLIP, BERT, and other Hugging Face models
+
+# Outfit & Pose Matching (CLIP, Fashion, etc.)
+ftfy
+regex
+sentence-transformers
+
+# Generative Mockup (Stable Diffusion & image generation)
+diffusers
+accelerate
+safetensors
+
+# Web / App Interface (optional for UI)
+streamlit
+flask
+
+# GUI for prototype (used in Pose Detection Module)
+tk
+
+# Camera Metadata
+piexif  # For handling EXIF metadata if needed
+
+# Miscellaneous Utilities
+requests
+python-dotenv

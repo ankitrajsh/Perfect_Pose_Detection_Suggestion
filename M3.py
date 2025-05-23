@@ -23,6 +23,8 @@ def extract_image_features(image_path):
     return features.reshape(1, -1)
 
 # -------- Dummy Training (Load Pretrained Model in Production) --------
+from sklearn.multioutput import MultiOutputRegressor
+
 def train_or_load_model(model_path='camera_model.pkl', scaler_path='scaler.pkl'):
     if os.path.exists(model_path) and os.path.exists(scaler_path):
         model = joblib.load(model_path)
@@ -41,12 +43,13 @@ def train_or_load_model(model_path='camera_model.pkl', scaler_path='scaler.pkl')
     scaler = StandardScaler()
     X_scaled = scaler.fit_transform(X)
 
-    model = lgb.LGBMRegressor()
+    model = MultiOutputRegressor(lgb.LGBMRegressor())
     model.fit(X_scaled, y)
 
     joblib.dump(model, model_path)
     joblib.dump(scaler, scaler_path)
     return model, scaler
+
 
 # -------- Suggest Camera Settings --------
 def suggest_camera_settings(image_path):
@@ -67,10 +70,10 @@ def suggest_camera_settings(image_path):
 
 # --------- Main Function ---------
 if __name__ == "__main__":
-    test_image = "temp.jpg"  # Replace with your image path
+    test_image = "C:/Users/Nishith/Downloads/Harini-Aswin-MCC-Hall-Chennai-0609+-+Copy.jpg"  # Replace with your image path
     try:
         suggestions = suggest_camera_settings(test_image)
-        print("📷 Suggested Camera Settings:")
+        print(" Suggested Camera Settings:")
         for k, v in suggestions.items():
             print(f"  {k}: {v}")
     except Exception as e:

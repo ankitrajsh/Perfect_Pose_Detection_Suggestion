@@ -61,7 +61,7 @@ def detect_context(image_path, gps_coords, event_type=None):
 
 # ----- Run the module -----
 if __name__ == "__main__":
-    image_path = "Harini-Aswin-MCC-Hall-Chennai-0609+-+Copy.jpg"  # Replace with your image
+    image_path = "C:/Users/Nishith/Downloads/Harini-Aswin-MCC-Hall-Chennai-0609+-+Copy.jpg"  # Replace with your image
     gps_coords = (19.0760, 72.8777)  # Example: Mumbai coordinates
     event_type = "Wedding"           # User input (optional)
 
