@@ -1,0 +1,24 @@
+ Module 1 – User Input & Context Detection
+Detects the user's location, lighting, time of day, and event theme using camera input, sensors, and optional user input.
+
+ Module 2 – Environment Scene Detection
+Classifies the scene (e.g., beach, café, park) using image-based scene recognition models like Places365 or ViT.
+
+ Module 3 – Lighting & Camera Condition Estimator
+Estimates ideal camera settings (ISO, white balance, exposure) using ML models based on current lighting and environment.
+
+ Module 4 – Pose Detection & Suggestion
+Uses pose estimation (e.g., MediaPipe) to detect user posture and recommends top poses suitable for the current scene.
+
+ Module 5 – Outfit Recommendation Module
+Suggests outfits and colors based on event type, weather, scene, and user preferences using CLIP or fashion matching models.
+
+ Module 6 – Personalization Module
+Learns from user preferences and behavior to refine pose and outfit recommendations over time.
+
+ Module 7 – AI Mockup Preview Generator
+Generates a visual mockup of the user in the suggested pose and outfit using generative models like Stable Diffusion.
+
+ Module 8 – Final Output Display
+Displays real-time pose overlays, outfit suggestions, camera settings, and mock previews with interactive action buttons.
+
