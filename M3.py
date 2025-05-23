@@ -67,7 +67,7 @@ def suggest_camera_settings(image_path):
 
 # --------- Main Function ---------
 if __name__ == "__main__":
-    test_image = "sample.jpg"  # Replace with your image path
+    test_image = "temp.jpg"  # Replace with your image path
     try:
         suggestions = suggest_camera_settings(test_image)
         print("📷 Suggested Camera Settings:")

@@ -73,7 +73,7 @@ def classify_scene(img_path):
 
 # -------- RUN THE MODULE --------
 if __name__ == "__main__":
-    image_path = 'sample.jpg'  # Replace with your image path
+    image_path = 'Harini-Aswin-MCC-Hall-Chennai-0609+-+Copy.jpg'  # Replace with your image path
     result = classify_scene(image_path)
     
     print("📸 Scene Classification Result:")
