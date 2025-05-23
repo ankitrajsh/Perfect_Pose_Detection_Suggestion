@@ -11,10 +11,10 @@ model, preprocess = clip.load("ViT-B/32", device=device)
 
 # Example outfit database (folder of images + metadata)
 OUTFIT_DB = [
-    {"image_path": "outfits/casual_blue_jeans.jpg", "tags": ["casual", "blue", "jeans", "outdoor", "day"]},
-    {"image_path": "outfits/formal_black_suit.jpg", "tags": ["formal", "black", "suit", "indoor", "evening"]},
-    {"image_path": "outfits/summer_white_dress.jpg", "tags": ["casual", "white", "dress", "outdoor", "summer", "day"]},
-    {"image_path": "outfits/winter_coat.jpg", "tags": ["casual", "coat", "winter", "outdoor", "cold"]},
+    {"image_path": "C:/Users/Nishith/Download/casual_blue_jeans.jpg", "tags": ["casual", "blue", "jeans", "outdoor", "day"]},
+    {"image_path": "C:/Users/Nishith/Downloads/formal_black_suit.jpg", "tags": ["formal", "black", "suit", "indoor", "evening"]},
+    {"image_path": "C:/Users/Nishith/Downloads/winter_coat.jpg", "tags": ["casual", "white", "dress", "outdoor", "summer", "day"]},
+    {"image_path": "C:/Users/Nishith/Downloads/summer_white_dress.jpg", "tags": ["casual", "coat", "winter", "outdoor", "cold"]},
     # Add more as needed
 ]
 
