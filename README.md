@@ -1,7 +1,7 @@
 
-# 📸 PosePal – AI-Powered Pose & Outfit Assistant
+# 📸AI-Powered Pose Detection and Recomendation & Outfit Assistant
 
-PosePal is an AI-based assistant that helps users take the perfect photo by recommending context-aware poses, camera settings, and outfits based on their environment, lighting, and event type. It acts as a personal stylist and smart photographer combined into one intelligent application.
+Pose Detection and Recomendation is an AI-based assistant that helps users take the perfect photo by recommending context-aware poses, camera settings, and outfits based on their environment, lighting, and event type. It acts as a personal stylist and smart photographer combined into one intelligent application.
 
 ---
 
